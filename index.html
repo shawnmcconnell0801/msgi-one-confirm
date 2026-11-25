@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Confirmed — MSGI One</title>
+  <link rel="icon" type="image/jpeg" href="https://dwbgvcfdkeeixebjgfeu.supabase.co/storage/v1/object/public/email-assets/msgi-one-logo.jpg" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(145deg, #071322 0%, #0b1e36 60%, #162B4D 100%);
+      color: #F8FAFC;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(200, 155, 60, 0.35);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-radius: 24px;
+      max-width: 480px;
+      width: 100%;
+      padding: 44px 32px;
+      text-align: center;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(200, 155, 60, 0.1);
+      animation: fadeIn 0.6s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .logo-img {
+      max-width: 280px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 28px;
+      display: inline-block;
+      filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+    }
+    .icon-wrap {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: rgba(16, 185, 129, 0.16);
+      border: 2.5px solid #34D399;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 22px;
+      box-shadow: 0 0 25px rgba(52, 211, 153, 0.35);
+      animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    .icon-wrap svg {
+      width: 40px;
+      height: 40px;
+      color: #34D399;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #c89b3c;
+      background: rgba(200, 155, 60, 0.12);
+      border: 1px solid rgba(200, 155, 60, 0.35);
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      color: #FFFFFF;
+      letter-spacing: -0.4px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 1.65;
+      color: #CBD5E1;
+      margin-bottom: 28px;
+    }
+    .btn-primary {
+      display: inline-block;
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: 12px;
+      background: #c89b3c;
+      color: #071322;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      box-shadow: 0 4px 18px rgba(200, 155, 60, 0.4);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+    .btn-primary:hover {
+      background: #dfaf47;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 22px rgba(200, 155, 60, 0.55);
+    }
+    .btn-secondary {
+      display: inline-block;
+      width: 100%;
+      margin-top: 12px;
+      padding: 13px 20px;
+      border-radius: 12px;
+      background: transparent;
+      color: #94A3B8;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: all 0.2s ease;
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: #FFFFFF;
+      border-color: rgba(255, 255, 255, 0.25);
+    }
+    .hint {
+      margin-top: 22px;
+      font-size: 13px;
+      color: #94A3B8;
+      line-height: 1.5;
+    }
+    .footer-text {
+      margin-top: 28px;
+      font-size: 12px;
+      color: #64748B;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 18px;
+    }
+    .footer-text span {
+      color: #c89b3c;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="https://dwbgvcfdkeeixebjgfeu.supabase.co/storage/v1/object/public/email-assets/msgi-one-logo.jpg" alt="MSGI One" class="logo-img" />
+
+    <div class="icon-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
+    </div>
+    
+    <div class="badge">Meenakshi Sundararajan Group</div>
+    <h1>Email Confirmed!</h1>
+    
+    <p>
+      Your email address has been verified successfully.<br>
+      Your <strong>MSGI One</strong> account is now active and ready to use.
+    </p>
+
+    <a class="btn-primary" href="alumninetwork://auth/callback" id="openAppBtn">Open MSGI One App</a>
+    <a class="btn-secondary" href="https://msec.edu.in" target="_blank">Visit MSEC College Website &rarr;</a>
+
+    <p class="hint">
+      Using your phone? Tap <strong>Open MSGI One App</strong> above or switch back to the MSGI One app and sign in with your email and password.
+    </p>
+
+    <div class="footer-text">
+      MSGI One &bull; <span>Learn &bull; Connect &bull; Grow</span>
+    </div>
+  </main>
+
+  <script>
+    // Detect mobile device and attempt deep link
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const btn = document.getElementById('openAppBtn');
+    
+    // If opened on mobile, try to open the app automatically or on click
+    if (isMobile) {
+      btn.onclick = function(e) {
+        // Fallback for Expo Go development
+        setTimeout(function() {
+          window.location.href = 'exp://';
+        }, 1500);
+      };
+    }
+  </script>
+</body>
+</html>
